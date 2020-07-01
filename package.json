@@ -1,0 +1,31 @@
+{
+  "name": "lint-html-with-css",
+  "version": "0.0.2",
+  "description": "css rules to help debug invalid HTML",
+  "main": "dist/styles.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodsilver83/LINT-HTML-WITH-CSS.git"
+  },
+  "keywords": [
+    "lint",
+    "html",
+    "css",
+    "a11y",
+    "accessibility"
+  ],
+  "author": "Rodrigo Soria <hello@rodrigosoria.me> (http://rodrigosoria.me)",
+  "license": "Mozilla Public License Version 2.0",
+  "bugs": {
+    "url": "https://github.com/rodsilver83/LINT-HTML-WITH-CSS/issues"
+  },
+  "homepage": "https://github.com/rodsilver83/LINT-HTML-WITH-CSS#readme",
+  "devDependencies": {
+    "@lodder/grunt-postcss": "^2.0.4",
+    "autoprefixer": "^9.8.4",
+    "grunt": "^1.1.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "cssnano": "^4.1.10"
+  }
+}

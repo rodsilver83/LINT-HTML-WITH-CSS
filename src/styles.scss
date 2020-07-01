@@ -1,0 +1,24 @@
+/* Prevents the absence of lang attribute in the HTML tag */
+$outline: dashed red;
+
+html:not([lang])::before {
+  content: 'HTML must have [lang] attribute';
+  display: block;
+  outline: $outline;
+}
+
+/* Testing autoprefixer */
+
+.autoprefixer {
+  display: flex;
+}
+
+/* Testing precss */
+
+.precss {
+  @if 3 < 5 {
+    background: green;
+  } @else {
+    background: blue;
+  }
+}

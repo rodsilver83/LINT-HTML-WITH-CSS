@@ -1,0 +1,1 @@
+html:not([lang]):before{content:"HTML must have [lang] attribute";display:block;outline:dashed red}.autoprefixer{display:flex}.precss{background:green}
